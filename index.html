@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Interactive Sounds</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Tone.js" charset="utf-8" defer></script>
+    <script src="script.js" charset="utf-8" defer></script>
+  </head>
+  <body>
+    <div class="intro">
+      <div class="button">
+        <p>Click to begin!</p>
+      </div>
+    </div>
+
+  <audio id="music" loop>
+    <source src="sounds/music.wav" type="audio/wav">
+    Get it together man, come back when you have a browser that supports the audio.
+  </audio>
+
+  <div id= "header">
+    <div class="text">
+      <p>Shape Sounds</p>
+    </div>
+  </div>
+  <div class="wrapper">
+      <div class="shapes">
+      <div id="square">
+        <img class="shape-img" height="100" src="ShapeImg/square.png" alt="image1">
+      </div>
+      <div id="circle">
+        <img class="shape-img" height="100" src="ShapeImg/circle.png" alt="image2">
+      </div>
+      <div id="triangle">
+        <img class="shape-img" height="100" src="ShapeImg/triangle.png" alt="image3">
+      </div>
+      <div id="rect">
+        <img class="shape-img" height="140" src="ShapeImg/rect.png" alt="image4">
+      </div>
+      <div id="diamond">
+        <img class="shape-img" height="140" src="ShapeImg/diamond.png" alt="image5">
+      </div>
+      <div id="star">
+        <img class="shape-img" height="140" src="ShapeImg/star.png" alt="image6">
+      </div>
+    </div>
+  </div>
+
+  </body>
+</html>

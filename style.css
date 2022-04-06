@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Caveat:wght@700&family=Montserrat:wght@300&display=swap');
+
+html{
+  font-size: 16px;
+  font-family: helvitica, sans-serif;
+}
+
+body, ul{
+  margin:0
+  padding:0;
+}
+
+ul{
+  list-style: none;
+}
+
+body{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+a:hover{
+  color:blue;
+  background-color: lightgrey;
+}
+
+li{
+  padding: 7px;
+}
+
+.intro{
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  background-color: white;
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+.button{
+  background-color: lightgrey;
+  padding: 6px;
+}
+
+.button:hover{
+  background-color: salmon;
+}
+
+.hidden{
+  display: none;
+}
+
+#header{
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  padding: 10px;
+  background-color: lightblue;
+  height:60px;
+}
+
+.text{
+  font-size: 1.7em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.wrapper{
+  display: inline-block;
+  text-align: left;
+
+  min-width: 600px;
+  max-width: 700px;
+  margin: 80px 50px 0 50px;
+}
+
+.title{
+  margin-top: 20px;
+  font-size: 2em;
+}
+
+.shapes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1100px;
+}
+
+.shape-img{
+  height: 130px;
+  margin: 30px;
+}
+
+.shape-img:hover{
+background-color: lightgrey;
+}
